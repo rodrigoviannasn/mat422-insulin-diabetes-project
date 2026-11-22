@@ -1,0 +1,9 @@
+,Data type,Missing values,Zero values,Zero percentage
+Pregnancies,int64,0,111,14.5
+Glucose,int64,0,5,0.7
+BloodPressure,int64,0,35,4.6
+SkinThickness,int64,0,227,29.6
+Insulin,int64,0,374,48.7
+BMI,float64,0,11,1.4
+DiabetesPedigreeFunction,float64,0,0,0.0
+Age,int64,0,0,0.0
