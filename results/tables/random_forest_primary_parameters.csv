@@ -1,0 +1,21 @@
+Model,Feature Set,Preprocessing,Outer Fold,Best Inner ROC-AUC,Selected Parameters,Fit Seconds
+Random Forest,Without Insulin,raw_zero,1,0.8362819625266656,"{""model__max_depth"": 5, ""model__max_features"": 0.7, ""model__min_samples_leaf"": 1, ""model__n_estimators"": 300}",38.403306780000094
+Random Forest,Without Insulin,raw_zero,2,0.8209624553641127,"{""model__max_depth"": 5, ""model__max_features"": ""sqrt"", ""model__min_samples_leaf"": 3, ""model__n_estimators"": 300}",35.06415177400049
+Random Forest,Without Insulin,raw_zero,3,0.8345740484043594,"{""model__max_depth"": 10, ""model__max_features"": ""sqrt"", ""model__min_samples_leaf"": 5, ""model__n_estimators"": 300}",36.00380378099999
+Random Forest,Without Insulin,raw_zero,4,0.8236984239965995,"{""model__max_depth"": 10, ""model__max_features"": ""sqrt"", ""model__min_samples_leaf"": 3, ""model__n_estimators"": 300}",34.17836799700035
+Random Forest,Without Insulin,raw_zero,5,0.8435018332039895,"{""model__max_depth"": 5, ""model__max_features"": ""sqrt"", ""model__min_samples_leaf"": 1, ""model__n_estimators"": 300}",34.40835240100023
+Random Forest,With Insulin,raw_zero,1,0.8384541340738855,"{""model__max_depth"": 5, ""model__max_features"": 0.7, ""model__min_samples_leaf"": 1, ""model__n_estimators"": 300}",36.91059152900016
+Random Forest,With Insulin,raw_zero,2,0.8234966445263182,"{""model__max_depth"": 5, ""model__max_features"": ""sqrt"", ""model__min_samples_leaf"": 3, ""model__n_estimators"": 300}",34.873566197999935
+Random Forest,With Insulin,raw_zero,3,0.8387859305025698,"{""model__max_depth"": 5, ""model__max_features"": ""sqrt"", ""model__min_samples_leaf"": 3, ""model__n_estimators"": 300}",36.865578118000485
+Random Forest,With Insulin,raw_zero,4,0.8226346382387894,"{""model__max_depth"": 5, ""model__max_features"": ""sqrt"", ""model__min_samples_leaf"": 1, ""model__n_estimators"": 300}",35.006895077999616
+Random Forest,With Insulin,raw_zero,5,0.843572812745666,"{""model__max_depth"": 5, ""model__max_features"": ""sqrt"", ""model__min_samples_leaf"": 1, ""model__n_estimators"": 300}",37.219127695999305
+Random Forest,Without Insulin,possible_missing_median,1,0.8361996262583209,"{""model__max_depth"": 5, ""model__max_features"": 0.7, ""model__min_samples_leaf"": 1, ""model__n_estimators"": 300}",35.38580756599913
+Random Forest,Without Insulin,possible_missing_median,2,0.8266021385067557,"{""model__max_depth"": 5, ""model__max_features"": 0.7, ""model__min_samples_leaf"": 3, ""model__n_estimators"": 300}",37.297781051999664
+Random Forest,Without Insulin,possible_missing_median,3,0.8366777942099076,"{""model__max_depth"": 5, ""model__max_features"": ""sqrt"", ""model__min_samples_leaf"": 1, ""model__n_estimators"": 300}",35.26918940999985
+Random Forest,Without Insulin,possible_missing_median,4,0.8257342489664939,"{""model__max_depth"": 5, ""model__max_features"": 0.7, ""model__min_samples_leaf"": 1, ""model__n_estimators"": 300}",37.63240981299987
+Random Forest,Without Insulin,possible_missing_median,5,0.8451790285514548,"{""model__max_depth"": 5, ""model__max_features"": 0.7, ""model__min_samples_leaf"": 3, ""model__n_estimators"": 300}",35.552378477000275
+Random Forest,With Insulin,possible_missing_median,1,0.8392336504260207,"{""model__max_depth"": 5, ""model__max_features"": 0.7, ""model__min_samples_leaf"": 1, ""model__n_estimators"": 300}",38.39049173700005
+Random Forest,With Insulin,possible_missing_median,2,0.8319341948522769,"{""model__max_depth"": 5, ""model__max_features"": ""sqrt"", ""model__min_samples_leaf"": 1, ""model__n_estimators"": 300}",36.23192388500047
+Random Forest,With Insulin,possible_missing_median,3,0.8410278376201172,"{""model__max_depth"": 5, ""model__max_features"": ""sqrt"", ""model__min_samples_leaf"": 5, ""model__n_estimators"": 300}",38.170727558999715
+Random Forest,With Insulin,possible_missing_median,4,0.8262161341971703,"{""model__max_depth"": 5, ""model__max_features"": ""sqrt"", ""model__min_samples_leaf"": 1, ""model__n_estimators"": 300}",36.267217558000084
+Random Forest,With Insulin,possible_missing_median,5,0.8456376734703411,"{""model__max_depth"": 5, ""model__max_features"": ""sqrt"", ""model__min_samples_leaf"": 1, ""model__n_estimators"": 300}",38.26643678600067

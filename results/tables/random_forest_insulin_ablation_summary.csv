@@ -1,0 +1,15 @@
+Preprocessing,Metric Difference,Mean Difference,Standard Deviation
+raw_zero,ROC-AUC Difference (With - Without),0.0,0.005
+raw_zero,PR-AUC Difference (With - Without),0.005,0.007
+raw_zero,Accuracy Difference (With - Without),0.003,0.01
+raw_zero,Balanced Accuracy Difference (With - Without),0.0,0.006
+raw_zero,Sensitivity Difference (With - Without),-0.007,0.01
+raw_zero,Specificity Difference (With - Without),0.008,0.019
+raw_zero,Brier Score Difference (With - Without),0.001,0.001
+possible_missing_median,ROC-AUC Difference (With - Without),-0.001,0.008
+possible_missing_median,PR-AUC Difference (With - Without),0.005,0.011
+possible_missing_median,Accuracy Difference (With - Without),0.003,0.022
+possible_missing_median,Balanced Accuracy Difference (With - Without),-0.001,0.023
+possible_missing_median,Sensitivity Difference (With - Without),-0.011,0.031
+possible_missing_median,Specificity Difference (With - Without),0.01,0.025
+possible_missing_median,Brier Score Difference (With - Without),0.002,0.004

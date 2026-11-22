@@ -1,0 +1,17 @@
+Model,Preprocessing,Feature Set,Feature,Mean ROC-AUC Decrease,Outer-Fold Standard Deviation
+Logistic Regression,possible_missing_median,With Insulin,Glucose,0.18323088749126482,0.016465692524712045
+Logistic Regression,possible_missing_median,With Insulin,BMI,0.05120104821802932,0.019325621987139528
+Logistic Regression,possible_missing_median,With Insulin,Pregnancies,0.020472606568832947,0.010159771983489396
+Logistic Regression,possible_missing_median,With Insulin,DiabetesPedigreeFunction,0.015892732354996476,0.004633558033936655
+Logistic Regression,possible_missing_median,With Insulin,Age,0.0039060796645701986,0.003123084639033035
+Logistic Regression,possible_missing_median,With Insulin,Insulin,0.002917435359888151,0.004126608459576581
+Logistic Regression,possible_missing_median,With Insulin,BloodPressure,0.0027829140461215606,0.005011469982728961
+Logistic Regression,possible_missing_median,With Insulin,SkinThickness,-0.0024117051013277714,0.002502445938420991
+Random Forest,possible_missing_median,With Insulin,Glucose,0.1397930817610063,0.022281195078512953
+Random Forest,possible_missing_median,With Insulin,BMI,0.041492941998602366,0.011166561013323417
+Random Forest,possible_missing_median,With Insulin,Age,0.02788591893780572,0.006386736416492796
+Random Forest,possible_missing_median,With Insulin,Insulin,0.008663347309573709,0.010395357487626575
+Random Forest,possible_missing_median,With Insulin,DiabetesPedigreeFunction,0.008456184486373154,0.003444370448739518
+Random Forest,possible_missing_median,With Insulin,Pregnancies,0.006721628232005577,0.002062966001370374
+Random Forest,possible_missing_median,With Insulin,SkinThickness,0.0006738993710691733,0.00503004132849246
+Random Forest,possible_missing_median,With Insulin,BloodPressure,-0.0008911600279524978,0.002547114470127825

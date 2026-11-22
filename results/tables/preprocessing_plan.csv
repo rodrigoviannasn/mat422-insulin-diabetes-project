@@ -1,0 +1,4 @@
+Approach,Description,Purpose
+Raw zero values,Keep values exactly as released.,Primary baseline preprocessing approach.
+Possible missing values with median imputation,"Convert selected zero values to possible missing values, then use median imputation and missingness indicators.",Primary sensitivity analysis.
+Possible missing values with KNN imputation,"Convert selected zero values to possible missing values, then use distance-weighted KNN imputation.",Additional sensitivity analysis.

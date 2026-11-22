@@ -1,0 +1,6 @@
+Model,Feature Set,Preprocessing,Outer Fold,Best Inner ROC-AUC,Selected Parameters,Fit Seconds
+Logistic Regression,Without Insulin,possible_missing_median,1,0.825391871463865,"{""model__C"": 0.1}",0.5903377409999848
+Logistic Regression,Without Insulin,possible_missing_median,2,0.8402298739046247,"{""model__C"": 1.0}",0.35140693799985456
+Logistic Regression,Without Insulin,possible_missing_median,3,0.8333381555516802,"{""model__C"": 0.1}",0.4756095610000557
+Logistic Regression,Without Insulin,possible_missing_median,4,0.8253694946145407,"{""model__C"": 0.1}",0.4310779590000493
+Logistic Regression,Without Insulin,possible_missing_median,5,0.8386345391894001,"{""model__C"": 0.1}",0.3018911190001745

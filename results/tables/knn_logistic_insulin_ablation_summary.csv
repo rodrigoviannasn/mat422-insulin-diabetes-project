@@ -1,0 +1,8 @@
+Model,Preprocessing,Metric Difference,Mean Difference,Standard Deviation
+Logistic Regression,possible_missing_knn,ROC-AUC Difference (With - Without),-0.0,0.002
+Logistic Regression,possible_missing_knn,PR-AUC Difference (With - Without),0.003,0.005
+Logistic Regression,possible_missing_knn,Accuracy Difference (With - Without),0.004,0.012
+Logistic Regression,possible_missing_knn,Balanced Accuracy Difference (With - Without),0.003,0.012
+Logistic Regression,possible_missing_knn,Sensitivity Difference (With - Without),0.0,0.019
+Logistic Regression,possible_missing_knn,Specificity Difference (With - Without),0.006,0.015
+Logistic Regression,possible_missing_knn,Brier Score Difference (With - Without),0.0,0.001

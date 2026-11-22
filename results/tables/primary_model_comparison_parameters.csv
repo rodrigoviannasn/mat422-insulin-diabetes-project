@@ -1,0 +1,61 @@
+Model,Feature Set,Preprocessing,Outer Fold,Best Inner ROC-AUC,Selected Parameters,Fit Seconds
+Logistic Regression,Without Insulin,raw_zero,1,0.8247337301279968,"{""model__C"": 0.1}",4.40080372400007
+Logistic Regression,Without Insulin,raw_zero,2,0.8305820126309045,"{""model__C"": 10.0}",0.28430860899970867
+Logistic Regression,Without Insulin,raw_zero,3,0.8280332763213947,"{""model__C"": 0.1}",0.4394373430000087
+Logistic Regression,Without Insulin,raw_zero,4,0.8189691303094819,"{""model__C"": 0.1}",0.5948935030000939
+Logistic Regression,Without Insulin,raw_zero,5,0.8353647385461999,"{""model__C"": 0.1}",0.5399427400002423
+Logistic Regression,With Insulin,raw_zero,1,0.8240625051405287,"{""model__C"": 0.1}",0.2966190209999695
+Logistic Regression,With Insulin,raw_zero,2,0.8305434056142155,"{""model__C"": 1.0}",0.23709514400025
+Logistic Regression,With Insulin,raw_zero,3,0.8287985455428447,"{""model__C"": 0.1}",0.2597127220001312
+Logistic Regression,With Insulin,raw_zero,4,0.8194953521425313,"{""model__C"": 0.1}",0.239143045000219
+Logistic Regression,With Insulin,raw_zero,5,0.8351199396196796,"{""model__C"": 0.1}",0.266306737999912
+Logistic Regression,Without Insulin,possible_missing_median,1,0.825391871463865,"{""model__C"": 0.1}",0.5903377409999848
+Logistic Regression,Without Insulin,possible_missing_median,2,0.8402298739046247,"{""model__C"": 1.0}",0.35140693799985456
+Logistic Regression,Without Insulin,possible_missing_median,3,0.8333381555516802,"{""model__C"": 0.1}",0.4756095610000557
+Logistic Regression,Without Insulin,possible_missing_median,4,0.8253694946145407,"{""model__C"": 0.1}",0.4310779590000493
+Logistic Regression,Without Insulin,possible_missing_median,5,0.8386345391894001,"{""model__C"": 0.1}",0.3018911190001745
+Logistic Regression,With Insulin,possible_missing_median,1,0.8235347832243819,"{""model__C"": 0.1}",0.22351135900044028
+Logistic Regression,With Insulin,possible_missing_median,2,0.83924178014466,"{""model__C"": 0.1}",0.24398631899930479
+Logistic Regression,With Insulin,possible_missing_median,3,0.8339301322467404,"{""model__C"": 0.1}",0.46433665199947427
+Logistic Regression,With Insulin,possible_missing_median,4,0.8253330974763656,"{""model__C"": 0.1}",0.5971026619999975
+Logistic Regression,With Insulin,possible_missing_median,5,0.8402484676175526,"{""model__C"": 0.1}",0.4336914080004135
+Elastic-Net Logistic Regression,Without Insulin,raw_zero,1,0.8252497953008557,"{""model__C"": 0.01, ""model__l1_ratio"": 0.1}",0.6608461199994053
+Elastic-Net Logistic Regression,Without Insulin,raw_zero,2,0.8304394169269201,"{""model__C"": 1.0, ""model__l1_ratio"": 0.1}",0.5976596290001908
+Elastic-Net Logistic Regression,Without Insulin,raw_zero,3,0.8296164567047919,"{""model__C"": 0.01, ""model__l1_ratio"": 0.1}",0.5705746220000947
+Elastic-Net Logistic Regression,Without Insulin,raw_zero,4,0.8185505119981183,"{""model__C"": 1.0, ""model__l1_ratio"": 0.1}",0.6646733010002208
+Elastic-Net Logistic Regression,Without Insulin,raw_zero,5,0.8350862645835152,"{""model__C"": 0.1, ""model__l1_ratio"": 0.1}",1.0890995780000594
+Elastic-Net Logistic Regression,With Insulin,raw_zero,1,0.8244471118117157,"{""model__C"": 0.1, ""model__l1_ratio"": 0.1}",1.1442026049999185
+Elastic-Net Logistic Regression,With Insulin,raw_zero,2,0.8307898217034891,"{""model__C"": 1.0, ""model__l1_ratio"": 0.9}",1.170302059000278
+Elastic-Net Logistic Regression,With Insulin,raw_zero,3,0.8294046596064121,"{""model__C"": 0.01, ""model__l1_ratio"": 0.1}",0.8768954309998662
+Elastic-Net Logistic Regression,With Insulin,raw_zero,4,0.8194223310243469,"{""model__C"": 1.0, ""model__l1_ratio"": 0.9}",0.678682674000811
+Elastic-Net Logistic Regression,With Insulin,raw_zero,5,0.8347365842373199,"{""model__C"": 1.0, ""model__l1_ratio"": 0.9}",0.6460899419998896
+Elastic-Net Logistic Regression,Without Insulin,possible_missing_median,1,0.8298783565786211,"{""model__C"": 0.01, ""model__l1_ratio"": 0.1}",0.5792107340002985
+Elastic-Net Logistic Regression,Without Insulin,possible_missing_median,2,0.8401929499079959,"{""model__C"": 1.0, ""model__l1_ratio"": 0.5}",0.5332342330002575
+Elastic-Net Logistic Regression,Without Insulin,possible_missing_median,3,0.8351652787166102,"{""model__C"": 0.01, ""model__l1_ratio"": 0.1}",0.5826076860003013
+Elastic-Net Logistic Regression,Without Insulin,possible_missing_median,4,0.8254752834015527,"{""model__C"": 0.1, ""model__l1_ratio"": 0.1}",0.5468016280001393
+Elastic-Net Logistic Regression,Without Insulin,possible_missing_median,5,0.8398045674178908,"{""model__C"": 0.01, ""model__l1_ratio"": 0.1}",0.6052426579999519
+Elastic-Net Logistic Regression,With Insulin,possible_missing_median,1,0.8287244194854034,"{""model__C"": 0.01, ""model__l1_ratio"": 0.1}",0.6248476399996434
+Elastic-Net Logistic Regression,With Insulin,possible_missing_median,2,0.8395888115636297,"{""model__C"": 0.1, ""model__l1_ratio"": 0.1}",0.5822160770003393
+Elastic-Net Logistic Regression,With Insulin,possible_missing_median,3,0.8362966413885835,"{""model__C"": 0.01, ""model__l1_ratio"": 0.1}",0.6182384549993003
+Elastic-Net Logistic Regression,With Insulin,possible_missing_median,4,0.8254038501762078,"{""model__C"": 0.1, ""model__l1_ratio"": 0.1}",0.5851399200000742
+Elastic-Net Logistic Regression,With Insulin,possible_missing_median,5,0.8403904267009054,"{""model__C"": 0.1, ""model__l1_ratio"": 0.1}",0.6036946499998521
+Random Forest,Without Insulin,raw_zero,1,0.8362819625266656,"{""model__max_depth"": 5, ""model__max_features"": 0.7, ""model__min_samples_leaf"": 1, ""model__n_estimators"": 300}",38.403306780000094
+Random Forest,Without Insulin,raw_zero,2,0.8209624553641127,"{""model__max_depth"": 5, ""model__max_features"": ""sqrt"", ""model__min_samples_leaf"": 3, ""model__n_estimators"": 300}",35.06415177400049
+Random Forest,Without Insulin,raw_zero,3,0.8345740484043594,"{""model__max_depth"": 10, ""model__max_features"": ""sqrt"", ""model__min_samples_leaf"": 5, ""model__n_estimators"": 300}",36.00380378099999
+Random Forest,Without Insulin,raw_zero,4,0.8236984239965995,"{""model__max_depth"": 10, ""model__max_features"": ""sqrt"", ""model__min_samples_leaf"": 3, ""model__n_estimators"": 300}",34.17836799700035
+Random Forest,Without Insulin,raw_zero,5,0.8435018332039895,"{""model__max_depth"": 5, ""model__max_features"": ""sqrt"", ""model__min_samples_leaf"": 1, ""model__n_estimators"": 300}",34.40835240100023
+Random Forest,With Insulin,raw_zero,1,0.8384541340738855,"{""model__max_depth"": 5, ""model__max_features"": 0.7, ""model__min_samples_leaf"": 1, ""model__n_estimators"": 300}",36.91059152900016
+Random Forest,With Insulin,raw_zero,2,0.8234966445263182,"{""model__max_depth"": 5, ""model__max_features"": ""sqrt"", ""model__min_samples_leaf"": 3, ""model__n_estimators"": 300}",34.873566197999935
+Random Forest,With Insulin,raw_zero,3,0.8387859305025698,"{""model__max_depth"": 5, ""model__max_features"": ""sqrt"", ""model__min_samples_leaf"": 3, ""model__n_estimators"": 300}",36.865578118000485
+Random Forest,With Insulin,raw_zero,4,0.8226346382387894,"{""model__max_depth"": 5, ""model__max_features"": ""sqrt"", ""model__min_samples_leaf"": 1, ""model__n_estimators"": 300}",35.006895077999616
+Random Forest,With Insulin,raw_zero,5,0.843572812745666,"{""model__max_depth"": 5, ""model__max_features"": ""sqrt"", ""model__min_samples_leaf"": 1, ""model__n_estimators"": 300}",37.219127695999305
+Random Forest,Without Insulin,possible_missing_median,1,0.8361996262583209,"{""model__max_depth"": 5, ""model__max_features"": 0.7, ""model__min_samples_leaf"": 1, ""model__n_estimators"": 300}",35.38580756599913
+Random Forest,Without Insulin,possible_missing_median,2,0.8266021385067557,"{""model__max_depth"": 5, ""model__max_features"": 0.7, ""model__min_samples_leaf"": 3, ""model__n_estimators"": 300}",37.297781051999664
+Random Forest,Without Insulin,possible_missing_median,3,0.8366777942099076,"{""model__max_depth"": 5, ""model__max_features"": ""sqrt"", ""model__min_samples_leaf"": 1, ""model__n_estimators"": 300}",35.26918940999985
+Random Forest,Without Insulin,possible_missing_median,4,0.8257342489664939,"{""model__max_depth"": 5, ""model__max_features"": 0.7, ""model__min_samples_leaf"": 1, ""model__n_estimators"": 300}",37.63240981299987
+Random Forest,Without Insulin,possible_missing_median,5,0.8451790285514548,"{""model__max_depth"": 5, ""model__max_features"": 0.7, ""model__min_samples_leaf"": 3, ""model__n_estimators"": 300}",35.552378477000275
+Random Forest,With Insulin,possible_missing_median,1,0.8392336504260207,"{""model__max_depth"": 5, ""model__max_features"": 0.7, ""model__min_samples_leaf"": 1, ""model__n_estimators"": 300}",38.39049173700005
+Random Forest,With Insulin,possible_missing_median,2,0.8319341948522769,"{""model__max_depth"": 5, ""model__max_features"": ""sqrt"", ""model__min_samples_leaf"": 1, ""model__n_estimators"": 300}",36.23192388500047
+Random Forest,With Insulin,possible_missing_median,3,0.8410278376201172,"{""model__max_depth"": 5, ""model__max_features"": ""sqrt"", ""model__min_samples_leaf"": 5, ""model__n_estimators"": 300}",38.170727558999715
+Random Forest,With Insulin,possible_missing_median,4,0.8262161341971703,"{""model__max_depth"": 5, ""model__max_features"": ""sqrt"", ""model__min_samples_leaf"": 1, ""model__n_estimators"": 300}",36.267217558000084
+Random Forest,With Insulin,possible_missing_median,5,0.8456376734703411,"{""model__max_depth"": 5, ""model__max_features"": ""sqrt"", ""model__min_samples_leaf"": 1, ""model__n_estimators"": 300}",38.26643678600067

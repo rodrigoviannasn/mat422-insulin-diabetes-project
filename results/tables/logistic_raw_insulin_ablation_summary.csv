@@ -1,0 +1,8 @@
+,Mean Difference,Standard Deviation
+ROC-AUC Difference (With - Without),0.0,0.002
+PR-AUC Difference (With - Without),0.001,0.003
+Accuracy Difference (With - Without),0.003,0.007
+Balanced Accuracy Difference (With - Without),0.0,0.01
+Sensitivity Difference (With - Without),-0.008,0.021
+Specificity Difference (With - Without),0.008,0.008
+Brier Score Difference (With - Without),0.0,0.001

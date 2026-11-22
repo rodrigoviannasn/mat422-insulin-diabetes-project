@@ -1,0 +1,11 @@
+Model,Preprocessing,Feature Set,Outer Fold,Best Inner ROC-AUC,Selected Parameters
+Logistic Regression,possible_missing_median,With Insulin,1,0.8235347832243819,"{""model__C"": 0.1}"
+Logistic Regression,possible_missing_median,With Insulin,2,0.83924178014466,"{""model__C"": 0.1}"
+Logistic Regression,possible_missing_median,With Insulin,3,0.8339301322467404,"{""model__C"": 0.1}"
+Logistic Regression,possible_missing_median,With Insulin,4,0.8253330974763656,"{""model__C"": 0.1}"
+Logistic Regression,possible_missing_median,With Insulin,5,0.8402484676175526,"{""model__C"": 0.1}"
+Random Forest,possible_missing_median,With Insulin,1,0.8392336504260207,"{""model__max_depth"": 5, ""model__max_features"": 0.7, ""model__min_samples_leaf"": 1, ""model__n_estimators"": 300}"
+Random Forest,possible_missing_median,With Insulin,2,0.8319341948522769,"{""model__max_depth"": 5, ""model__max_features"": ""sqrt"", ""model__min_samples_leaf"": 1, ""model__n_estimators"": 300}"
+Random Forest,possible_missing_median,With Insulin,3,0.8410278376201172,"{""model__max_depth"": 5, ""model__max_features"": ""sqrt"", ""model__min_samples_leaf"": 5, ""model__n_estimators"": 300}"
+Random Forest,possible_missing_median,With Insulin,4,0.8262161341971703,"{""model__max_depth"": 5, ""model__max_features"": ""sqrt"", ""model__min_samples_leaf"": 1, ""model__n_estimators"": 300}"
+Random Forest,possible_missing_median,With Insulin,5,0.8456376734703411,"{""model__max_depth"": 5, ""model__max_features"": ""sqrt"", ""model__min_samples_leaf"": 1, ""model__n_estimators"": 300}"

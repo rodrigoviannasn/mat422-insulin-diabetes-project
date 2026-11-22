@@ -1,0 +1,4 @@
+Model,Purpose,Tuning settings
+Logistic Regression,Interpretable baseline model.,"{'model__C': [0.1, 1.0, 10.0]}"
+Elastic-Net Logistic Regression,Regularized linear model that can reduce the influence of less useful predictors.,"{'model__C': [0.01, 0.1, 1.0], 'model__l1_ratio': [0.1, 0.5, 0.9]}"
+Random Forest,Nonlinear comparison model.,"{'model__n_estimators': [300], 'model__max_depth': [None, 5, 10], 'model__min_samples_leaf': [1, 3, 5], 'model__max_features': ['sqrt', 0.7]}"

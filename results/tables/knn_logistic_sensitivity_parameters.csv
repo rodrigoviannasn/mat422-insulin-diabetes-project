@@ -1,0 +1,11 @@
+Model,Feature Set,Preprocessing,Outer Fold,Best Inner ROC-AUC,Selected Parameters,Fit Seconds
+Logistic Regression,Without Insulin,possible_missing_knn,1,0.8347201345455995,"{""model__C"": 0.1}",4.301816215000144
+Logistic Regression,Without Insulin,possible_missing_knn,2,0.8421318402398915,"{""model__C"": 1.0}",1.0702450319995478
+Logistic Regression,Without Insulin,possible_missing_knn,3,0.8345164013085524,"{""model__C"": 0.1}",0.8713075569994544
+Logistic Regression,Without Insulin,possible_missing_knn,4,0.8246956426522827,"{""model__C"": 0.1}",0.9071084689994677
+Logistic Regression,Without Insulin,possible_missing_knn,5,0.8425868117845591,"{""model__C"": 0.1}",0.9270560159993693
+Logistic Regression,With Insulin,possible_missing_knn,1,0.8326590789097565,"{""model__C"": 0.1}",0.36579004600025655
+Logistic Regression,With Insulin,possible_missing_knn,2,0.8412358515821005,"{""model__C"": 1.0}",0.5055191149995153
+Logistic Regression,With Insulin,possible_missing_knn,3,0.8355985027151065,"{""model__C"": 0.1}",0.43368605700015905
+Logistic Regression,With Insulin,possible_missing_knn,4,0.8246273852126169,"{""model__C"": 0.1}",0.39685949599970627
+Logistic Regression,With Insulin,possible_missing_knn,5,0.843224266608642,"{""model__C"": 0.1}",0.35718701600035274

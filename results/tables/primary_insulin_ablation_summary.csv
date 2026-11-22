@@ -1,0 +1,43 @@
+Model,Preprocessing,Metric Difference,Mean Difference,Standard Deviation
+Logistic Regression,raw_zero,ROC-AUC Difference (With - Without),0.0,0.002
+Logistic Regression,raw_zero,PR-AUC Difference (With - Without),0.001,0.003
+Logistic Regression,raw_zero,Accuracy Difference (With - Without),0.003,0.007
+Logistic Regression,raw_zero,Balanced Accuracy Difference (With - Without),0.0,0.01
+Logistic Regression,raw_zero,Sensitivity Difference (With - Without),-0.008,0.021
+Logistic Regression,raw_zero,Specificity Difference (With - Without),0.008,0.008
+Logistic Regression,raw_zero,Brier Score Difference (With - Without),0.0,0.001
+Logistic Regression,possible_missing_median,ROC-AUC Difference (With - Without),-0.001,0.003
+Logistic Regression,possible_missing_median,PR-AUC Difference (With - Without),0.0,0.006
+Logistic Regression,possible_missing_median,Accuracy Difference (With - Without),0.003,0.011
+Logistic Regression,possible_missing_median,Balanced Accuracy Difference (With - Without),0.001,0.012
+Logistic Regression,possible_missing_median,Sensitivity Difference (With - Without),-0.004,0.016
+Logistic Regression,possible_missing_median,Specificity Difference (With - Without),0.006,0.009
+Logistic Regression,possible_missing_median,Brier Score Difference (With - Without),0.001,0.001
+Elastic-Net Logistic Regression,raw_zero,ROC-AUC Difference (With - Without),0.001,0.004
+Elastic-Net Logistic Regression,raw_zero,PR-AUC Difference (With - Without),0.003,0.005
+Elastic-Net Logistic Regression,raw_zero,Accuracy Difference (With - Without),-0.001,0.008
+Elastic-Net Logistic Regression,raw_zero,Balanced Accuracy Difference (With - Without),-0.001,0.013
+Elastic-Net Logistic Regression,raw_zero,Sensitivity Difference (With - Without),-0.0,0.037
+Elastic-Net Logistic Regression,raw_zero,Specificity Difference (With - Without),-0.002,0.019
+Elastic-Net Logistic Regression,raw_zero,Brier Score Difference (With - Without),-0.004,0.009
+Elastic-Net Logistic Regression,possible_missing_median,ROC-AUC Difference (With - Without),-0.001,0.004
+Elastic-Net Logistic Regression,possible_missing_median,PR-AUC Difference (With - Without),-0.001,0.007
+Elastic-Net Logistic Regression,possible_missing_median,Accuracy Difference (With - Without),-0.0,0.007
+Elastic-Net Logistic Regression,possible_missing_median,Balanced Accuracy Difference (With - Without),0.003,0.012
+Elastic-Net Logistic Regression,possible_missing_median,Sensitivity Difference (With - Without),0.011,0.037
+Elastic-Net Logistic Regression,possible_missing_median,Specificity Difference (With - Without),-0.006,0.015
+Elastic-Net Logistic Regression,possible_missing_median,Brier Score Difference (With - Without),-0.001,0.003
+Random Forest,raw_zero,ROC-AUC Difference (With - Without),0.0,0.005
+Random Forest,raw_zero,PR-AUC Difference (With - Without),0.005,0.007
+Random Forest,raw_zero,Accuracy Difference (With - Without),0.003,0.01
+Random Forest,raw_zero,Balanced Accuracy Difference (With - Without),0.0,0.006
+Random Forest,raw_zero,Sensitivity Difference (With - Without),-0.007,0.01
+Random Forest,raw_zero,Specificity Difference (With - Without),0.008,0.019
+Random Forest,raw_zero,Brier Score Difference (With - Without),0.001,0.001
+Random Forest,possible_missing_median,ROC-AUC Difference (With - Without),-0.001,0.008
+Random Forest,possible_missing_median,PR-AUC Difference (With - Without),0.005,0.011
+Random Forest,possible_missing_median,Accuracy Difference (With - Without),0.003,0.022
+Random Forest,possible_missing_median,Balanced Accuracy Difference (With - Without),-0.001,0.023
+Random Forest,possible_missing_median,Sensitivity Difference (With - Without),-0.011,0.031
+Random Forest,possible_missing_median,Specificity Difference (With - Without),0.01,0.025
+Random Forest,possible_missing_median,Brier Score Difference (With - Without),0.002,0.004
